@@ -86,5 +86,16 @@ body {
       opacity: 1;
     }
   }
+  header h1:hover{
+    user-select: none;
+    color: #9b8a8a;
+    transition: all 1000ms ease;
+  }
+h2:hover{
+  user-select: none;
+  text-decoration: underline;
+  color: #d45454;
+  transition: all 1000ms ease;
+}
   
     
