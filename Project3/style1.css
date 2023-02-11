@@ -1,29 +1,137 @@
-body{
-    background-color: rgb(8, 71, 90);
-}
-header{
+
+*{transition: all 0.2s;}
+html{
+    background-color: White;
+    padding:0px;
+    margin:0px;
+    height: 100%;
     width: 100%;
 }
-header h1{
-    user-select: none;
+body{
+    background-color: rgb(180, 157, 157);
+    padding:0px;
+    margin:0px;
+    height:100%;
+    width:100%;
+}
+aside{
     float: left;
-    width: 110px;
-    font-size: 17px;
-    padding-left: 50px;
-    color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(38, 38, 109); 
+    width:19.78%;
+    height:100%;
+    border-right: 3px solid rgb(146, 142, 142);
 }
-header nav ul li{
-    user-select:none;
-    list-style: none;
-    float: right;
-    width: fit-content;
-    font-size: 10px;
-    padding-left: 50px;
-    color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+aside header{
+    width:100%;
+    height:15%;
+    border-bottom:1px solid rgb(84, 64, 164);
 }
-header nav ul li:hover{
+aside header img{
+    height:85px ;
+    width: 100%;
+}
+#BHeader{
+    float:left;
+    margin:0px;
+    padding:0px;
+    background-color: rgb(38, 38, 109);
+    width:80%;
+    height:12%;
+}
+main{
+    float:left;
+    width: 80%;
+    height: 88%;
+    background-color: aqua;
+}
+#WDash{
+    float:left;
+    width: 96%;
+    background-color:aliceblue;
+    margin:30px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    user-select: none;
+}
+#WDash h4{
+    float:left;
+    width:40%;
+    margin:10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.uPDash{
+    float:right;
+    margin:15px;
+    font-family:sans-serif;
+}
+#hr1{
+    float:right;
+    font-family:sans-serif;
+    width:20px;
+    margin-top:23px ;
+    background-color: orange;
+}
+#p1{
+    color: orange;
+}
+#langSel{
+    user-select: none;
     cursor: pointer;
-    text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.5);
+    background-color: rgb(38, 38, 109);
+    color:white ;
+    margin: 20px;
+    width: 80px;
+    border-radius: 10px;
+}
+#langSel:hover{
+    box-shadow: 3px 3px 3px rgba(255, 234, 0, 0.9);
+    border-radius: 10px;
+    width:150px;
+}
+aside nav{
+    user-select: none;
+    color:orange;
+    font-family:sans-serif;
+    font-size: 13px;
+    margin:10px;
+}
+aside nav ul li a{
+    text-decoration: none;
+    color: orange;
+}
+ul{
+    list-style: none;
+    user-select: none;
+    color:Orange;
+}
+li{
+    margin:5px;
+}
+ul li:hover{
+    cursor: pointer;
+}
+#profile{
+    user-select: none;
+    cursor: pointer;
+    float:right;
+    width:50px;
+    height: 50px;
+    background-color: white;
+    margin-top:13px;
+    margin-right: 10px;
+    border-radius: 60px;
+}
+#profile:hover{
+    box-shadow: 0px 0px 5px rgba(239, 243, 236, 0.9);
+}
+#profileName{
+    float:right;
+    width:fit-content;
+    color:white;
+    height: 20px;
+    margin-top:27px;
+    margin-right: 70px;
+    user-select: none;
 }
